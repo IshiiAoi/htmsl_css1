@@ -1,0 +1,136 @@
+$cBlack: black;
+
+body {
+  margin: 0;
+  font-family: 'YuGothic,Bold';
+}
+ul {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: $cBlack;
+}
+h2, p, h3{
+  margin: 0;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: rgba($color: #ffffff, $alpha: .8);
+  top: 0;
+  position: fixed;
+  z-index: 10;
+
+  & .header-logo img {
+    width: 256px;
+    height: 50px;
+    float: left;
+  }
+  & .header-list {
+    float: right;
+
+    & li {
+      width: 41px;
+      height: 18px;
+      float: right;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-left: 40px;
+    }
+  }
+}
+.image-wrapper {
+  width: 100%;
+  height: 600px;
+  background: url('../img/header.jpg');
+  background-size: cover;
+}
+.ability-wrapper {
+  width: 100%;
+  height: 500px;
+
+  
+  & h1 {
+    margin: 70px auto 52px;
+    width: 185px;
+    font-size: 35px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #51a2bc;
+  }
+  & .contents {
+    width: 100%;
+  }
+  & .ability-item {
+    text-align: center;
+    float: left;
+    width: 33%;
+
+    & h2 {
+      margin: 20px 0 32px;
+    }
+  }
+}
+.summary {
+  width: 100%;
+  height: 420px;
+  margin: 80px auto;
+
+  & .sum-left {
+    float: left;
+  }
+  & h3 {
+    width: 335px;
+    height: 86px;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  & p {
+    width: 337px;
+    height: 60px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  & .btn-more {
+    display: block;
+    width: 167px;
+    height: 50px;
+    
+    & .btn {
+      padding: 14px 50px;
+      width: 67px;
+      height: 22px;
+      border: 3px solid #51a2bc;
+      border-radius: 25px;
+
+      &:hover {
+        transition: all .5s;
+        background-color: #51a2bc;
+        color: white;
+      }
+    }
+  }
+  & .sum-right {
+    float: right;
+  }
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #D5D5D5;
+  color: white;
+  text-align: center;
+
+  & p {
+    line-height: 50px;
+  }
+}

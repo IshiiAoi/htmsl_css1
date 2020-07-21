@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: 'YuGothic,Bold';
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2, p, h3 {
+  margin: 0;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  top: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+header .header-logo img {
+  width: 256px;
+  height: 50px;
+  float: left;
+}
+
+header .header-list {
+  float: right;
+}
+
+header .header-list li {
+  width: 41px;
+  height: 18px;
+  float: right;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 600px;
+  background: url("../img/header.jpg");
+  background-size: cover;
+}
+
+.ability-wrapper {
+  width: 100%;
+  height: 500px;
+}
+
+.ability-wrapper h1 {
+  margin: 70px auto 52px;
+  width: 185px;
+  font-size: 35px;
+  font-weight: normal;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #51a2bc;
+}
+
+.ability-wrapper .contents {
+  width: 100%;
+}
+
+.ability-wrapper .ability-item {
+  text-align: center;
+  float: left;
+  width: 33%;
+}
+
+.ability-wrapper .ability-item h2 {
+  margin: 20px 0 32px;
+}
+
+.summary {
+  width: 100%;
+  height: 420px;
+  margin: 80px auto;
+}
+
+.summary .sum-left {
+  float: left;
+}
+
+.summary h3 {
+  width: 335px;
+  height: 86px;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.summary p {
+  width: 337px;
+  height: 60px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.summary .btn-more {
+  display: block;
+  width: 167px;
+  height: 50px;
+}
+
+.summary .btn-more .btn {
+  padding: 14px 50px;
+  width: 67px;
+  height: 22px;
+  border: 3px solid #51a2bc;
+  border-radius: 25px;
+}
+
+.summary .btn-more .btn:hover {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background-color: #51a2bc;
+  color: white;
+}
+
+.summary .sum-right {
+  float: right;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #D5D5D5;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  line-height: 50px;
+}
+/*# sourceMappingURL=style.css.map */

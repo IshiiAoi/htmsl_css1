@@ -1,0 +1,78 @@
+@media (max-width: 790px) {
+  .summary {
+    height: 300px;
+  }
+  .summary .sum-left {
+    width: 40%;
+  }
+  .summary .sum-right img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-list li {
+    padding: 15px 33px;
+    font-size: 16px;
+  }
+  .image-wrapper {
+    height: 300px;
+  }
+  .ability-wrapper {
+    height: 1300px;
+  }
+  .ability-wrapper .ability-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 660px) {
+  .header-list li {
+    padding: 3px;
+    font-size: 12px;
+  }
+  .summary {
+    height: 250px;
+  }
+  .summary .sum-left {
+    width: 30%;
+  }
+  .summary .sum-left h3 {
+    font-size: 25px;
+  }
+  .summary .sum-left p {
+    font-size: 15px;
+  }
+  .summary .sum-left .btn {
+    font-size: 17px;
+    padding: 7px 20px;
+  }
+  .summary .sum-right {
+    width: 40%;
+  }
+}
+
+@media (max-width: 550px) {
+  header .header-list li {
+    padding: 13px;
+    font-size: 12px;
+  }
+  .summary .sum-left {
+    width: 40%;
+  }
+  .summary .sum-left h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .summary .sum-left p {
+    font-size: 14px;
+  }
+  .summary .sum-right {
+    width: 40%;
+  }
+  .summary .sum-right img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=resposive.css.map */
